@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Blog page</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div>
+                    <a class="un" href="index.html">Home</a>
+                </div>
+                
+                <div class="right">
+                    <a class="un  current" href="#">Blog</a>
+                    <a class="un" href="./works.html">Works</a>
+                    <a class="un" href="#contact">Contact</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container2">
+            <nav>
+                <div id="mySidepanel" class="sidepanel">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="./index.html">Home</a>
+                    <a class="current" href="./blog.html">Blog</a>
+                    <a href="./works.html" onclick="closeNav()">Work</a>
+                    <a href="#contact" onclick="closeNav()">Contact</a>
+                </div>
+                <div class="row">
+                  <button class="openbtn" onclick="openNav()">&#9776;</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="blog" onclick="closeNav()">
+        <div class="container">
+            <div class="blog_head">
+                <h1>Blog</h1>
+            </div>
+            <div class="blogcontent">
+                <div>
+                    <h1>Making a design system from scratch</h1>
+                </div>
+                <div class="blogcontent-row">
+                    <p>12 Feb 2020</p>
+                    <p>Design, Pattern</p>
+                </div>
+                <div>
+                    <p class="small">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<hr></p>
+                </div>
+            </div>
+
+            <div class="blogcontent">
+                <div>
+                    <h1>Creating pixel perfect icons in Figma</h1>
+                </div>
+                <div class="blogcontent-row">
+                    <p>12 Feb 2020</p>
+                    <p>Design, Pattern</p>
+                </div>
+                <div>
+                    <p class="small">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<hr></p>
+                </div>
+            </div>
+
+            <div class="blogcontent">
+                <div>
+                    <h1>UI Interactions of the week</h1>
+                </div>
+                <div class="blogcontent-row">
+                    <p>12 Feb 2019</p>
+                    <p>Design, Pattern</p>
+                </div>
+                <div>
+                    <p class="small">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<hr></p>
+                </div>
+            </div>
+
+            <div class="blogcontent">
+                <div>
+                    <h1>UI Interactions of the week</h1>
+                </div>
+                <div class="blogcontent-row">
+                    <p>12 Feb 2019</p>
+                    <p>Design, Pattern</p>
+                </div>
+                <div>
+                    <p class="small">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.<hr></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container" id="contact">
+            <div class="contact">
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div style="font-size: 12px;">
+                <p>Copyright ©2020 All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./navbar.js"></script>
+</body>
+</html>

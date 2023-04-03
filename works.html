@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Works page</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div>
+                    <a class="un" href="index.html">Home</a>
+                </div>
+                
+                <div class="right">
+                    <a class="un" href="./blog.html">Blog</a>
+                    <a class="un current" href="#">Works</a>
+                    <a class="un" href="#contact">Contact</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container2">
+            <nav>
+                <div id="mySidepanel" class="sidepanel">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="./index.html">Home</a>
+                    <a href="./blog.html">Blog</a>
+                    <a class="current" href="./works.html" onclick="closeNav()">Work</a>
+                    <a href="#contact" onclick="closeNav()">Contact</a>
+                </div>
+                <div class="row">
+                  <button class="openbtn" onclick="openNav()">&#9776;</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="work" onclick="closeNav()">
+        <div class="container">
+            <div class="work_head">
+                <h1>Work</h1>
+            </div>
+            <div class="workcontent">
+                <div class="workcontent-twoside">
+                    <div>
+                        <img class="work-w100" src="https://aleks-tl.github.io/john/img/featured_1.webp" alt="">
+                    </div>
+                    <div class="workcontent-rightside">
+                        <h1>Designing Dashboards</h1>
+                        <div class="workcontent-row">
+                            <p class="round">2020</p>
+                            <p>Dashboard</p>
+                        </div>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div> 
+                <hr>
+            </div>
+
+            <div class="workcontent">
+                <div class="workcontent-twoside">
+                    <div>
+                        <img class="work-w100" src="https://aleks-tl.github.io/john/img/featured_2.webp" alt="">
+                    </div>
+                    <div class="workcontent-rightside">
+                        <h1>Vibrant Portraits of 2020</h1>
+                        <div class="workcontent-row">
+                            <p class="round">2018</p>
+                            <p>Illustration</p>
+                        </div>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div> 
+                <hr>
+            </div>
+            
+            <div class="workcontent">
+                <div class="workcontent-twoside">
+                    <div>
+                        <img class="work-w100" src="https://aleks-tl.github.io/john/img/featured_3.webp" alt="">
+                    </div>
+                    <div class="workcontent-rightside">
+                        <h1>36 Days of Malayalam type</h1>
+                        <div class="workcontent-row">
+                            <p class="round">2018</p>
+                            <p>Typography</p>
+                        </div>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div> 
+                <hr>
+            </div>
+
+            <div class="workcontent">
+                <div class="workcontent-twoside">
+                    <div>
+                        <img class="work-w100" src="https://john-creative-technologist-web.netlify.app/img/work-4.jpg" alt="" width="246px">
+                    </div>
+                    <div class="workcontent-rightside">
+                        <h1>Components</h1>
+                        <div class="workcontent-row">
+                            <p class="round">2017</p>
+                            <p>Components, Design</p>
+                        </div>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div> 
+                <hr>
+            </div>
+            
+
+            
+        </div>
+    </section>
+
+
+
+
+
+    <footer>
+        <div class="container" id="contact">
+            <div class="contact">
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div style="font-size: 12px;">
+                <p>Copyright ©2020 All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./navbar.js"></script>
+</body>
+</html>
